@@ -14,7 +14,7 @@ class MergePdfController extends Controller
         try {
 
             $validator = Validator::make($request->all(), [
-                'csv' => 'required'
+                'csv' => 'required:mimetypes:text/plain,text/csv'
             ]);
 
             if ($validator->fails()) {
@@ -30,9 +30,6 @@ class MergePdfController extends Controller
                     if (is_file($nameoffile))
                         unlink($nameoffile); // delete file
                 }
-
-                dd($request->file('csv')->getMimeType());
-
 
 
                 /*
