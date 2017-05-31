@@ -14,7 +14,7 @@ class MergePdfController extends Controller
         try {
 
             $validator = Validator::make($request->all(), [
-                'csv' => 'required|mimetypes:text/csv'
+                'csv' => 'required|mimes:csv'
             ]);
 
             if ($validator->fails()) {
