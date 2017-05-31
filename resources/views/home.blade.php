@@ -42,8 +42,9 @@
                     <em>
                         Antes crie um arquivo com extensão <strong>CSV</strong> com o caminho para baixar cada arquivo separado por
                         ";"<br>
-                        Ex.:
+                        <div class="text-mute"> Ex.:
                         http://www.blabla.com/arquivo1.pdf;http://www.blabla.com/arquivo3.pdf;http://www.blabla.com/arquivo4.pdf;http://www.blabla.com/arquivo5.pdf;
+                        </div>
                         <br>
                         Agora selecione o arquivo e clique em enviar, aguarde que em seguida será exibido o link para download do arquivo pdf onde foram mesclados os outros.
                     </em>
