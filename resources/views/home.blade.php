@@ -40,7 +40,7 @@
             <div class="well">
                 <p>
                     <em>
-                        Antes crie um arquivo com extensão pdf com o caminho para baixar cada arquivo separado por
+                        Antes crie um arquivo com extensão <strong>CSV</strong> com o caminho para baixar cada arquivo separado por
                         ";"<br>
                         Ex.:
                         http://www.blabla.com/arquivo1.pdf;http://www.blabla.com/arquivo3.pdf;http://www.blabla.com/arquivo4.pdf;http://www.blabla.com/arquivo5.pdf;
