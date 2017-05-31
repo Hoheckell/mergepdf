@@ -33,6 +33,15 @@
             <h1>MergePdf</h1><br>
             Junção de vários PDFs<br>
             </p>
+            @if (count($errors) > 0)
+                <div class="alert alert-danger">
+                    <ul>
+                        @foreach ($errors->all() as $error)
+                            <li>{{ $error }}</li>
+                        @endforeach
+                    </ul>
+                </div>
+            @endif
         </div>
     </div>
     <div class="row">
@@ -40,13 +49,15 @@
             <div class="well">
                 <p>
                     <em>
-                        Antes crie um arquivo com extensão <strong>CSV</strong> com o caminho para baixar cada arquivo separado por
+                        Antes crie um arquivo com extensão <strong>CSV</strong> com o caminho para baixar cada arquivo
+                        separado por
                         ";"<br>
                         <div class="text-mute"> Ex.:
-                        http://www.blabla.com/arquivo1.pdf;http://www.blabla.com/arquivo3.pdf;http://www.blabla.com/arquivo4.pdf;http://www.blabla.com/arquivo5.pdf;
+                            http://www.blabla.com/arquivo1.pdf;http://www.blabla.com/arquivo3.pdf;http://www.blabla.com/arquivo4.pdf;http://www.blabla.com/arquivo5.pdf;
                         </div>
                         <br>
-                        Agora selecione o arquivo e clique em enviar, aguarde que em seguida será exibido o link para download do arquivo pdf onde foram mesclados os descritos anteriormente no arquivo.
+                        Agora selecione o arquivo e clique em enviar, aguarde que em seguida será exibido o link para
+                        download do arquivo pdf onde foram mesclados os descritos anteriormente no arquivo.
                     </em>
                 </p>
 
