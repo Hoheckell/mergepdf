@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use iio\libmergepdf\Merger;
-
+use Validator;
 class MergePdfController extends Controller
 {
     //
