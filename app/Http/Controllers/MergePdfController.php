@@ -31,7 +31,7 @@ class MergePdfController extends Controller
                         unlink($nameoffile); // delete file
                 }
 
-                dd(mime_content_type($request->file('csv')));
+                dd($request->file('csv')->getMimeType());
 
 
 
