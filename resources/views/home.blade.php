@@ -46,7 +46,7 @@
                         http://www.blabla.com/arquivo1.pdf;http://www.blabla.com/arquivo3.pdf;http://www.blabla.com/arquivo4.pdf;http://www.blabla.com/arquivo5.pdf;
                         </div>
                         <br>
-                        Agora selecione o arquivo e clique em enviar, aguarde que em seguida será exibido o link para download do arquivo pdf onde foram mesclados os outros.
+                        Agora selecione o arquivo e clique em enviar, aguarde que em seguida será exibido o link para download do arquivo pdf onde foram mesclados os descritos anteriormente no arquivo.
                     </em>
                 </p>
 
